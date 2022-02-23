@@ -2,7 +2,7 @@ node (){
 stage 'Build and Test'
 env.PATH = "${tool 'M3'}/bin:${env.PATH}"
 //checkout scm
-git url:"https://github.com/tobecrazy/SeleniumDemo.git"
+git url:"https://github.com/lineuve/SeleniumDemo.git"
 echo "start building"
 echo ${test}
 mvn clean
